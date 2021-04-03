@@ -42,7 +42,7 @@ services:
         context: .
         dockerfile: ./docker/backend/Dockerfile
       container_name: celery_kurulush
-      command: bash -c 'cd /app/backend/ && celery -A crm worker -l info'
+      command: bash -c 'cd /app/backend/ && celery -A kurulush worker -l info'
       networks:
         - my-network
       depends_on:
