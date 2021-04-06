@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-export const baseURL = 'http://kyrgyzuna.kg/';
+export const baseURL = 'http://kyrgyzuna.tk/';
 
 export const API = {
     get: ({url, params, ...rest}) =>
