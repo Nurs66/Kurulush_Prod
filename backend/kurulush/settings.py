@@ -10,7 +10,7 @@ SECRET_KEY = 'k*4n7=@a40ho!1&tkla-3yg3^i9*wxflw9%o&sl^+nsiv*d5&&'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['kyrgyzuna.kg']
 
 
 # Application definition
