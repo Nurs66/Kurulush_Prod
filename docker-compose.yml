@@ -57,7 +57,7 @@ services:
       ports:
         - 80:80
       volumes:
-        - ./docker/nginx/:/etc/nginx/conf.d
+        - ./docker/nginx/prod:/etc/nginx/conf.d
         - static_volume:/app/backend/staticfiles
         - media_volume:/app/backend/media
       networks:
