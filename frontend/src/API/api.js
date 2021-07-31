@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-export const baseURL = 'http://kyrgyzuna.tk/' || 'http://chpokers.tk/';
+export const baseURL = 'http://kyrgyzuna.kg/';
 
 export const API = {
     get: ({url, params, ...rest}) =>
